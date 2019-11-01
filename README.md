@@ -4,7 +4,8 @@ A simple chat application in nodejs and mongodb
 Read
 https://medium.com/@amkurian/simple-chat-application-in-node-js-using-express-mongoose-and-socket-io-ee62d94f5804
 
-## rs.status() 
+## rs.status()
+``` 
 rs0:PRIMARY> rs.status()
 {
 	"set" : "rs0",
@@ -151,8 +152,10 @@ rs0:PRIMARY> rs.status()
 	},
 	"operationTime" : Timestamp(1572601688, 1)
 }
+```
 
 ## rs.config()
+```
 rs0:PRIMARY> rs.config() 
 {
 	"_id" : "rs0",
@@ -217,7 +220,7 @@ rs0:PRIMARY> rs.config()
 		"replicaSetId" : ObjectId("5dbbf826fad449b416736bc1")
 	}
 }
-
+```
 ## Screenshot
 ![](https://i.imgur.com/0zbe3sR.png)
 
