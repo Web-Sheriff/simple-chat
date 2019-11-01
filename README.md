@@ -227,7 +227,7 @@ rs0:PRIMARY> rs.config()
 ![](https://i.imgur.com/0zbe3sR.png)
 
 ## rs.status()
-'''
+```
 rs0:PRIMARY> rs.status()
 {
 	"set" : "rs0",
@@ -375,10 +375,10 @@ rs0:PRIMARY> rs.status()
 	},
 	"operationTime" : Timestamp(1572605901, 1)
 }
-'''
+```
 
 ## rs.config()
-'''
+```
 rs0:PRIMARY> rs.config()
 {
 	"_id" : "rs0",
@@ -443,8 +443,7 @@ rs0:PRIMARY> rs.config()
 		"replicaSetId" : ObjectId("5dbbf826fad449b416736bc1")
 	}
 }
-
-'''
+```
 
 ## Screenshot after
 ![](https://i.imgur.com/bumfoB7.png)
